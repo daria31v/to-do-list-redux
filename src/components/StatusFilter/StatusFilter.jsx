@@ -6,7 +6,7 @@ import { getStatusFilter } from '../../redux/selectors';
 //  Імпортуємо хук
 import { useSelector, useDispatch } from 'react-redux';
 // Імпортуємо генератор екшену
-import { setStatusFilter } from '../../redux/actions';
+import { setStatusFilter } from '../../redux/filtersSlice';
 
 export const StatusFilter = () => {
   // Отримуємо значення фільтра із стану Redux
